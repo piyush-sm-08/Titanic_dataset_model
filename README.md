@@ -71,9 +71,10 @@ requirements.txt,Lists all necessary Python dependencies.
 This is the most critical section for reproducibility. Tell the user exactly what they need to install.
 
 1. Clone the Repository:
-
+```bash
 git clone https://github.com/piyush-sm-08/Titanic_dataset_model.git
 cd titanic-project
+```
 
 2. Install Dependencies (using your requirements.txt):
 
@@ -87,18 +88,22 @@ Provide the exact command the user needs to execute the model training and evalu
 # Ensure you are in the project's root directory: /titanic-project
 python src/run_model.py
 
-7. Results & Evaluation
-Display the final performance metrics achieved by the model, including the classification report you shared.
+🧪 7. Results & Evaluation
 
-Overall Accuracy: Accuracy: 0.82
+The final model — a Stacked Ensemble Classifier — achieved:
+
+🎯 Overall Accuracy: 82%
+
+Below is the complete classification report:
 
 Classification Report: (Copy and paste the formatted table directly)
 
 ```bash
-| Class | Precision | Recall | F1-Score |
-| :---: | :---: | :---: | :---: |
-| 0 (No) | 0.82 | 0.89 | 0.85 |
-| 1 (Yes) | 0.82 | 0.73 | 0.77 |
+| Class      | Precision | Recall | F1-Score |
+| :--------: | :-------: | :----: | :------: |
+| 0 (No)     |   0.82    |  0.89  |   0.85   |
+| 1 (Yes)    |   0.82    |  0.73  |   0.77   |
+
 ```
 
 8. Future Enhancements
