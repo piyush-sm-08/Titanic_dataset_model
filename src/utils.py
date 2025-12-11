@@ -10,7 +10,7 @@ def get_data_path(filename='Titanic-Dataset.csv'):
     script_dir = Path(__file__).resolve().parent
     data_dir = script_dir.parent / 'data'
     file_path = data_dir / filename
-    
+
     return file_path
 
 def get_model_path(filename='stacked_titanic_model.joblib'):
@@ -20,7 +20,9 @@ def get_model_path(filename='stacked_titanic_model.joblib'):
 
     script_dir = Path(__file__).resolve().parent
     model_dir = script_dir.parent / 'models'
+
     # Ensure the models directory exists
+    
     model_dir.mkdir(exist_ok=True) 
     file_path = model_dir / filename
 
