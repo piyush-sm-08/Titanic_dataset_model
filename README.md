@@ -3,20 +3,20 @@
 
 # Title: Titanic Survival Prediction: Stacked Ensemble Classifier
 
-Description: A brief summary of what the project does, the dataset used, and the main goal.
-
-This project implements a StackingClassifier (Gradient Boosting + Random Forest + Logistic Regression) to predict passenger survival on the Titanic dataset. The primary goal is to demonstrate a robust, modular machine learning pipeline using scikit-learn's Pipeline and ColumnTransformer.
-
-2. Table of Contents (For Navigation)
-Help users quickly jump to the section they need.
-
-
 1. Project Overview
 2. Data Source
 3. Project Structure
 4. Installation & Setup
 5. How to Run
 6. Results & Evaluation
+
+
+1. Description: A brief summary of what the project does, the dataset used, and the main goal.
+
+This project implements a StackingClassifier (Gradient Boosting + Random Forest + Logistic Regression) to predict passenger survival on the Titanic dataset. The primary goal is to demonstrate a robust, modular machine learning pipeline using scikit-learn's Pipeline and ColumnTransformer.
+
+2. Table of Contents (For Navigation)
+Help users quickly jump to the section you need.
 
 ```bash 
 
@@ -53,7 +53,8 @@ Cleaning/Feature Engineering: Briefly explain the steps taken.
 
 The dataset was cleaned by dropping 'PassengerId', 'Name', 'Ticket', and 'Cabin'. Missing 'Age' values were imputed using the median, and 'Embarked' using the most frequent value. Features like 'Sex' and 'Embarked' were One-Hot Encoded.
 
-4. Project Structure (The Map)
+4. Project Structure (The Map) :
+
 Explain the purpose of your modular folders and files, as this helps anyone understand the code organization.
 
 File/Folder,Purpose
@@ -63,7 +64,7 @@ src/preprocess.py,"Contains the create_preprocessor function for all data transf
 src/model.py,Contains functions to define the base models and the final StackingClassifier.
 src/run_model.py,"The main execution script to load data, build the pipeline, train, and evaluate the model."
 src/utils.py,"Utility functions, primarily for robust file path handling (get_data_path)."
-requirements.txt,Lists all necessary Python dependencies.
+requirements.txt,Lists all necessary Python dependencies. 
 
 5. Installation & Setup
 This is the most critical section for reproducibility . 
@@ -77,8 +78,9 @@ cd titanic-project
 
 2. Install Dependencies (using requirements.txt):
 
+```bash
 pip install -r requirements.txt
-
+```
 
 6. How to Run the Code :
 Provide the exact command the user needs to execute the model training and evaluation.
