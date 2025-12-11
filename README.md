@@ -19,6 +19,31 @@ Help users quickly jump to the section they need.
 5. How to Run
 6. Results & Evaluation
 
+```bash
+
+TITANIC_PROJECT_NAME/
+├── data
+    └── Titanic-dataset.csv
+├── models
+│   └── stacked_titanic_model.pkl
+├── notebook
+│   ├── readME.md
+│   ├── Titanic_EDA.ipynb
+│   └── understanding.ipynb
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── model.py
+│   ├── preprocess.py
+│   ├── run_model.py
+│   └── utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+
+4 directories, 13 files
+
 
 3. Data Source & Preparation
 Source: State where the data comes from (e.g., Kaggle Titanic Dataset).
@@ -92,7 +117,7 @@ The data is sourced from the standard Kaggle Titanic competition dataset.
 To run this project, you need Python 3.8+ and the following dependencies:
 ```bash
 # Clone the repository
-git clone [https://github.com/piyush-sm-08/Titanic_dataset_model.git]
+git clone https://github.com/piyush-sm-08/Titanic_dataset_model.git
 cd titanic-project
 
 # Install dependencies
