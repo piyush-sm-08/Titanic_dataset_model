@@ -112,7 +112,7 @@ python src/run_model.py
 
 The final model — a Stacked Ensemble Classifier — achieved:
 
-# 🎯 Overall Accuracy: 82%
+# 🎯 Overall Accuracy: 82.28%
 
 Below is the complete classification report:
 
