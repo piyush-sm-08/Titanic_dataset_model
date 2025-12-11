@@ -12,11 +12,14 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------------------.
 
+
 1. Description: 
 
 A brief summary of what the project does, the dataset used, and the main goal.
 
 This project implements a StackingClassifier (Gradient Boosting + Random Forest + Logistic Regression) to predict passenger survival on the Titanic dataset. The primary goal is to demonstrate a robust, modular machine learning pipeline using scikit-learn's Pipeline and ColumnTransformer.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Table of Contents (For Navigation)
 Help users quickly jump to the section you need.
@@ -48,6 +51,8 @@ TITANIC_PROJECT_NAME/
 
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 3. Data Source & Preparation :
 
 link  : https://www.kaggle.com/datasets/yasserh/titanic-dataset
@@ -55,6 +60,8 @@ link  : https://www.kaggle.com/datasets/yasserh/titanic-dataset
 Cleaning/Feature Engineering: Briefly explain the steps taken.
 
 The dataset was cleaned by dropping 'PassengerId', 'Name', 'Ticket', and 'Cabin'. Missing 'Age' values were imputed using the median, and 'Embarked' using the most frequent value. Features like 'Sex' and 'Embarked' were One-Hot Encoded.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. Project Structure (The Map) :
 
@@ -69,9 +76,12 @@ src/run_model.py,"The main execution script to load data, build the pipeline, tr
 src/utils.py,"Utility functions, primarily for robust file path handling (get_data_path)."
 requirements.txt,Lists all necessary Python dependencies. 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 5. Installation & Setup
 This is the most critical section for reproducibility . 
       --> Follow the below steps :
+
 
 1. Clone the Repository:
 ```bash
@@ -85,6 +95,8 @@ cd titanic-project
 pip install -r requirements.txt
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 6. How to Run the Code :
 Provide the exact command the user needs to execute the model training and evaluation.
 
@@ -92,6 +104,7 @@ Provide the exact command the user needs to execute the model training and evalu
 ```bash
 python src/run_model.py
 ```
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧪 7. Results & Evaluation
 
@@ -111,5 +124,10 @@ Classification Report:
 
 ```
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
 8. Future Enhancements
 Suggest improvements, such as adding hyperparameter tuning, cross-validation, or integrating CatBoost.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
