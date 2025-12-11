@@ -14,11 +14,6 @@ ENV/
 .ipynb_checkpoints
 
 
-# Data
-data/*.csv
-data/*.zip
-
-
 # Models
 models/*.pkl
 
