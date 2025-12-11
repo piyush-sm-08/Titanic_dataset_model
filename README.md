@@ -78,9 +78,11 @@ requirements.txt,Lists all necessary Python dependencies.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-5. Installation & Setup
+5. Installation & Setup :
+
 This is the most critical section for reproducibility . 
       --> Follow the below steps :
+
 
 
 1. Clone the Repository:
@@ -110,7 +112,7 @@ python src/run_model.py
 
 The final model — a Stacked Ensemble Classifier — achieved:
 
-🎯 Overall Accuracy: 82%
+# 🎯 Overall Accuracy: 82%
 
 Below is the complete classification report:
 
