@@ -10,8 +10,11 @@
 5. How to Run
 6. Results & Evaluation
 
+--------------------------------------------------------------------------------------------------------------------------------------------------.
 
-1. Description: A brief summary of what the project does, the dataset used, and the main goal.
+1. Description: 
+
+A brief summary of what the project does, the dataset used, and the main goal.
 
 This project implements a StackingClassifier (Gradient Boosting + Random Forest + Logistic Regression) to predict passenger survival on the Titanic dataset. The primary goal is to demonstrate a robust, modular machine learning pipeline using scikit-learn's Pipeline and ColumnTransformer.
 
