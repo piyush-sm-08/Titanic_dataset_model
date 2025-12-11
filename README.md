@@ -23,6 +23,8 @@ Help users quickly jump to the section they need.
 3. Data Source & Preparation
 Source: State where the data comes from (e.g., Kaggle Titanic Dataset).
 
+link  : https://www.kaggle.com/datasets/yasserh/titanic-dataset
+
 Cleaning/Feature Engineering: Briefly explain the steps taken.
 
 Example: "The dataset was cleaned by dropping 'PassengerId', 'Name', 'Ticket', and 'Cabin'. Missing 'Age' values were imputed using the median, and 'Embarked' using the most frequent value. Features like 'Sex' and 'Embarked' were One-Hot Encoded."
@@ -44,7 +46,7 @@ This is the most critical section for reproducibility. Tell the user exactly wha
 
 1. Clone the Repository:
 
-git clone https://github.com/yourusername/titanic-project.git
+git clone https://github.com/piyush-sm-08/Titanic_dataset_model.git
 cd titanic-project
 
 2. Install Dependencies (using your requirements.txt):
@@ -90,7 +92,7 @@ The data is sourced from the standard Kaggle Titanic competition dataset.
 To run this project, you need Python 3.8+ and the following dependencies:
 ```bash
 # Clone the repository
-git clone [YOUR REPO LINK]
+git clone [https://github.com/piyush-sm-08/Titanic_dataset_model.git]
 cd titanic-project
 
 # Install dependencies
