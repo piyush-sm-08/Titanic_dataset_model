@@ -1,6 +1,8 @@
-📝 Essential Sections for Your ML Project README.md
+# 📝 Essential Sections for Your ML Project README.md
 1. Project Title & Description (The Hook)
-Title: A clear, concise, and descriptive name.
+
+# Title: 
+A clear, concise, and descriptive name.
 
 Example: # Titanic Survival Prediction: Stacked Ensemble Classifier
 
