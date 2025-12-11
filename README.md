@@ -19,7 +19,7 @@ Help users quickly jump to the section they need.
 5. How to Run
 6. Results & Evaluation
 
-```bash
+```bash 
 
 TITANIC_PROJECT_NAME/
 ├── data
@@ -44,6 +44,7 @@ TITANIC_PROJECT_NAME/
 
 4 directories, 13 files
 
+```
 
 3. Data Source & Preparation
 Source: State where the data comes from (e.g., Kaggle Titanic Dataset).
@@ -93,11 +94,12 @@ Overall Accuracy: Accuracy: 0.82
 
 Classification Report: (Copy and paste the formatted table directly)
 
+```bash
 | Class | Precision | Recall | F1-Score |
 | :---: | :---: | :---: | :---: |
 | 0 (No) | 0.82 | 0.89 | 0.85 |
 | 1 (Yes) | 0.82 | 0.73 | 0.77 |
-
+```
 
 8. Future Enhancements
 Suggest improvements, such as adding hyperparameter tuning, cross-validation, or integrating CatBoost.
@@ -115,6 +117,7 @@ The data is sourced from the standard Kaggle Titanic competition dataset.
 
 ## 4. Installation & Setup
 To run this project, you need Python 3.8+ and the following dependencies:
+
 ```bash
 # Clone the repository
 git clone https://github.com/piyush-sm-08/Titanic_dataset_model.git
