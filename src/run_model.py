@@ -52,7 +52,6 @@ def main():
         x , y, test_size=0.2, random_state=42
     )
 
-    # Create Pipeline Components :
     preprocessor = create_preprocessor()
     gb, rf = create_base_models()
     stack = create_stacking_model(gb, rf)
@@ -78,11 +77,11 @@ def main():
     # 6. Predict and Evaluate
     y_pred = pipe.predict(x_test)
 
-    print("\n--- Model Evaluation (StackingClassifier) ---")
+    print("\n            <--- Model Evaluation (StackingClassifier) --->")
 
     print(f"Accuracy: {accuracy_score(y_test, y_pred)*100:.2f}")
 
-    print("\nClassification Report:")
+    print("\n Classification Report: ->>")
 
     print(classification_report(y_test, y_pred))
 
